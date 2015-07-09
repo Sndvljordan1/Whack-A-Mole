@@ -1,0 +1,35 @@
+.container{
+	width: 350px;
+	height: 350px;
+	position: relative;
+	left: 450px;
+	top: 50px;
+}
+.square {
+	width: 100px;
+	height: 100px;
+	background: red;
+	border: solid black 3px;
+	position: relative;
+	float: left;
+}
+.active{
+	background-image: url(/img/mole.jpg);
+}
+button{
+	font-size: 20px;
+}
+#back{
+	position: relative;
+	top: -250px;
+}
+#score{
+	position: relative;
+	left: 200px;
+	font-size: 25px;
+}
+#c{
+	font-size: 10px;
+	position: relative;
+	top: 200px;
+}
