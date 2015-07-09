@@ -10,9 +10,9 @@
 				<div>
 					<h1>Whack-It</h1>
 				</div>
-				<button id='go'>Beginner</button>
-				<button id='md'>Medium</button>
-				<button id='hard'>Hard</button>
+				<button class='difficulty' id='go'>Beginner</button>
+				<button class='difficulty' id='md'>Medium</button>
+				<button class='difficulty' id='hard'>Hard</button>
 				<button id='score'>Score: 0</button>
 				<div class='container'>
 					<div class='square' id='one'></div>
@@ -25,7 +25,7 @@
 					<div class='square' id='eight'></div>
 					<div class='square' id='nine'></div>
 				</div>
-				<button id='back'>Reset</button>
+				<button class='difficulty' id='back'>Reset</button>
 			</main>
 			<div class='sound'>
 				<audio src="sound/fail.wav" id='fail'></audio>
@@ -33,6 +33,8 @@
 				<audio src="sound/start.mp3" id='start'></audio>
 				<audio src="sound/gameplay.mp3" id='woot'></audio>
 				<audio src="sound/chipper.wav" id='chipper'></audio>
+				<audio src="sound/celebrate.wav" id='won'></audio>
+				<audio src="sound/lose.wav" id='lose'></audio>
 			</div>
 		</section>
 		<script src ='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.js'></script>

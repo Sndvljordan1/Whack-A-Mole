@@ -59,6 +59,7 @@ $('.square').click(function(e){
 
         }
         if(success.length == 25){
+        	playSound('won')
 			alert('WINNER!');
 			location.reload(true);
 		}
@@ -68,6 +69,7 @@ $('.square').click(function(e){
         success.shift();
         $('#score').text('Score: '+ success.length);
         if (success.length <= 0) {
+        	playSound('lose')
         	alert('fail');
        		location.reload(true)
         };
