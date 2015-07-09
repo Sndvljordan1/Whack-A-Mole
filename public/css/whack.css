@@ -5,6 +5,11 @@ h1{
 	left: 350;
 	font-family: ('comic-sans')
 }
+.spec{
+	font-size: 20px;
+	position: relative;
+	left: 250px;
+}
 .container{
 	width: 350px;
 	height: 350px;
@@ -26,12 +31,13 @@ h1{
 .difficulty{
 	font-size: 20px;
 	position: relative;
-	left: 125px;
+	left: 25px;
 	top: 200px;
 }
 #back{
 	position: relative;
 	top: -250px;
+	left: 175px;
 }
 #score{
 	position: relative;
